@@ -72,7 +72,7 @@ window.addEventListener('resize', () => {
 const projects = [
     { id: 1, name: 'Influencer_Assistant_Hub', type: 'AI Assistant UI', date: '2026-07-20', lang: 'JavaScript', snippet: '// Connect to Vercel deployment\nconst env = "production";\ninit_assistant({ vibe: "high" });', link: 'https://fuckshitpoet.com/influencerhub' },
     { id: 2, name: 'Poet_Proposals', type: 'Creative Writing Tech', date: '2026-07-20', lang: 'JavaScript', snippet: '// fuckshitpoet proposals loaded\nasync function generatePoetry() {\n  return await LLM.prompt("Spit bars.");\n}', link: 'https://fuckshitpoet.com/proposals' },
-    { id: 3, name: 'Prompt_Weaver', type: 'LLM Agent', date: '2026-05-10', lang: 'Python', snippet: 'agent.prompt = "Generate hyper-specific Y2K aesthetics."\nresponse = agent.vibe_check(context)\nrender(response.ui)' },
+    { id: 3, name: 'Disguise', type: 'Web App', date: '2026-07-22', lang: 'Java', snippet: '// Initialize Disguise protocol\nDisguise.init();', link: 'https://fuckshitpoet.com/disguise' },
     { id: 4, name: 'Cyberpunk_Dashboard', type: 'Fullstack App', date: '2026-04-01', lang: 'Svelte / Node', snippet: 'fetch("/api/vibe-metrics")\n  .then(res => res.json())\n  .then(updateDashboard);' },
 ];
 
