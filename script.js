@@ -72,8 +72,7 @@ window.addEventListener('resize', () => {
 const projects = [
     { id: 1, name: 'Influencer_Assistant_Hub', type: 'AI Assistant UI', date: '2026-07-20', lang: 'JavaScript', snippet: '// Connect to Vercel deployment\nconst env = "production";\ninit_assistant({ vibe: "high" });', link: 'https://fuckshitpoet.com/influencerhub' },
     { id: 2, name: 'Poet_Proposals', type: 'Creative Writing Tech', date: '2026-07-20', lang: 'JavaScript', snippet: '// fuckshitpoet proposals loaded\nasync function generatePoetry() {\n  return await LLM.prompt("Spit bars.");\n}', link: 'https://fuckshitpoet.com/proposals' },
-    { id: 3, name: 'Disguise', type: 'Web App', date: '2026-07-22', lang: 'Java', snippet: '// Initialize Disguise protocol\nDisguise.init();', link: 'https://fuckshitpoet.com/disguise' },
-    { id: 4, name: 'Cyberpunk_Dashboard', type: 'Fullstack App', date: '2026-04-01', lang: 'Svelte / Node', snippet: 'fetch("/api/vibe-metrics")\n  .then(res => res.json())\n  .then(updateDashboard);' },
+    { id: 3, name: 'Disguise', type: 'Web App', date: '2026-07-22', lang: 'Java', snippet: '// Initialize Disguise protocol\nDisguise.init();', link: 'https://fuckshitpoet.com/disguise' }
 ];
 
 const contentEl = document.getElementById('content');
@@ -82,10 +81,10 @@ const nowViewingEl = document.getElementById('now-viewing');
 function renderHome() {
     let html = `
         <div style="margin-bottom: 30px;" class="gsap-item">
-            <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">VIBE CODING INITIATED</h2>
+            <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">PROJECT_COLLECTION</h2>
             <p style="color: #888; font-size: 0.85rem; line-height: 1.6;">
-                System initialized for developer: <span style="color: #38bdf8;">Blessing Bafunso</span>.<br>
-                Central nexus for all generative coding and digital aesthetic experiments.
+                Active directory for developer: <span style="color: #38bdf8;">Blessing Bafunso</span>.<br>
+                A collection of deployed projects and active experiments.
             </p>
         </div>
         <ul class="project-list">
