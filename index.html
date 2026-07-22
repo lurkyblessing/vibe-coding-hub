@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIBE//CODING_NEXUS - Blessing Bafunso</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Three.js for 3D Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <!-- GSAP for advanced animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <div class="glass-chassis" id="app-container">
+        <header class="top-bar">
+            <h1 class="brand">VIBE//CODING_NEXUS</h1>
+            <div class="status-indicator">
+                <div class="status-led online"></div>
+                <span style="font-size: 0.7rem; color: #4ade80; margin-left: 8px;">NODE.ACTIVE</span>
+            </div>
+        </header>
+        
+        <main class="main-display">
+            <div class="screen-bezel">
+                <div class="screen glass-panel">
+                    <div class="screen-header">
+                        <span class="time" id="clock">00:00:00</span>
+                        <span class="user-badge">DEV: BLESSING BAFUNSO</span>
+                        <span class="status glow-text">FLOW STATE: [locked]</span>
+                    </div>
+                    
+                    <div class="content-area" id="content">
+                        <!-- Projects injected here -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="side-panel">
+                <div class="glass-card hardware-status">
+                    <h3>VIBE METRICS</h3>
+                    <div class="bar-container">
+                        <label>SYNC</label>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 95%"></div></div>
+                    </div>
+                    <div class="bar-container">
+                        <label>VIBE</label>
+                        <span class="cyber-text" style="color: #4ade80;">Maximized</span>
+                    </div>
+                    <div class="bar-container">
+                        <label>GEN</label>
+                        <span class="cyber-text" style="color: #38bdf8;">Active</span>
+                    </div>
+                </div>
+                
+                <div class="glass-card now-playing">
+                    <h3>ACTIVE PROTOCOL</h3>
+                    <div class="track-title" id="now-viewing">BOOT_SEQ</div>
+                    <div class="track-info">Blessing_Vibe_OS</div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="control-panel glass-panel">
+            <div class="media-controls">
+                <button class="btn btn-glass btn-play" onclick="navTo('home')" title="Directory">DIR</button>
+                <button class="btn btn-glass btn-pause" onclick="navTo('projects')" title="Execute">EXE</button>
+                <button class="btn btn-glass btn-stop" onclick="navTo('about')" title="Sys Info">SYS</button>
+            </div>
+            
+            <div class="eq-visualizer">
+                <!-- Vibe levels -->
+                <div class="eq-bar"><div class="eq-fill" style="height: 60%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 80%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 40%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 90%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 50%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 70%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 30%"></div></div>
+                <div class="eq-bar"><div class="eq-fill" style="height: 85%"></div></div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js?v=3"></script>
+</body>
+</html>
