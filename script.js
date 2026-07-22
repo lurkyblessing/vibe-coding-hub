@@ -81,7 +81,7 @@ const nowViewingEl = document.getElementById('now-viewing');
 function renderHome() {
     let html = `
         <div style="margin-bottom: 30px;" class="gsap-item">
-            <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">PROJECT_COLLECTION</h2>
+            <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">EXTRA BLESSINGS</h2>
             <p style="color: #888; font-size: 0.85rem; line-height: 1.6;">
                 Active directory for developer: <span style="color: #38bdf8;">Blessing Bafunso</span>.<br>
                 A collection of deployed projects and active experiments.
