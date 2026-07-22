@@ -161,13 +161,16 @@ function navTo(section) {
     } else if (section === 'about') {
         contentEl.innerHTML = `
             <div class="gsap-view">
-                <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">SYS_INFO</h2>
+                <h2 style="color: #fff; margin-top: 0; font-family: 'Orbitron', sans-serif;">SYS_INFO: ORIGIN</h2>
                 <p style="color: #888; font-size: 0.85rem;">
                     DEVELOPER: <span style="color: #38bdf8;">BLESSING BAFUNSO</span><br>
                     FRAMEWORK: WEBGL_GLASS_EDITION
                 </p>
+                <p style="color: #aaa; line-height: 1.6; font-size: 0.9rem; margin-bottom: 15px;">
+                    My journey into <strong>vibe coding</strong> didn't start in a traditional computer science lab—it clicked for me after attending Adobe 99U in 2026. Being surrounded by that kind of raw creative energy made me realize that code shouldn't just be rigid syntax. I taught myself to build by leaning into the aesthetics and the feeling of the work, using development as a medium to highlight exactly what matters most in my own creative process.
+                </p>
                 <p style="color: #aaa; line-height: 1.6; font-size: 0.9rem;">
-                    <strong>Vibe Coding</strong> is the process of writing code while completely immersed in a specific aesthetic or flow state. This hub utilizes Three.js, GSAP, and advanced Glassmorphism to create a high-performance visual environment for executing code.
+                    Today, I treat development like an art form. I vibecode my projects into existence by acting as a creative director for advanced AI, orchestrating environments using <strong>Antigravity, Codex, and Claude Code</strong>. It's less about typing out boilerplate and more about sculpting digital experiences while staying completely locked into a flow state.
                 </p>
             </div>
         `;
